@@ -1,0 +1,20 @@
+{
+  "name": "mdsvex-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bundler.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd node_modules/mdsvex && npm install && npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "mdsvex": "github:foxfriends/MDsveX",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.23.0"
+  }
+}
